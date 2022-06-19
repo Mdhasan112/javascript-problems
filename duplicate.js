@@ -4,7 +4,6 @@ var uniqueName = [];
 for(i = 0; i < Name.length; i++) {
     var element = Name[i];
     var index = uniqueName.indexOf(element);
-
     if(index == -1) {
         uniqueName.push(element);
     }
