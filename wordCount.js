@@ -7,6 +7,6 @@ for(i = 0; i < spech.length; i++) {
     if(element == " " && spech[i-1] != " ") {
         count++;
     }
-    
 }
+count++;
 console.log(count)
